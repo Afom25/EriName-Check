@@ -34,7 +34,11 @@
     width:200px;
     text-align: center;
     padding: 10px;
+    /* cursor: pointer; */
    
+}
+#boy-head{
+    display: none;
 }
 #guy-image:hover{
     transform: scale(0.5);
@@ -44,13 +48,14 @@
 }
 /*LadySECTION*/
 #boy-name{
-    background:rgb(238, 199, 127);
+    background:rgb(221, 206, 179);
 }
 #lady-image{
     border-radius: 50%;
     width:200px;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
    
 }
 #lady-image:hover{
@@ -78,4 +83,8 @@ h5{
 }
 .social {
     text-align: center;
+}
+
+#form-name{
+    background: whitesmoke;
 }
