@@ -1,0 +1,81 @@
+
+
+
+
+#eri-icon{
+    border-radius: 50%;
+    width:50px;
+}
+
+/*HOME SECTION*/
+
+#home{
+    background: url(../image/bkk1.jpeg)no-repeat
+    center center/cover;
+    height:100vh;
+}
+.home-center{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size: 30px;
+    color: wheat;
+    width:fit-content;
+    text-align: center;
+}
+
+    /*GUY SECTION*/
+#boy-name{
+    background:rgb(238, 199, 127);
+}
+#guy-image{
+    border-radius: 50%;
+    width:200px;
+    text-align: center;
+    padding: 10px;
+   
+}
+#guy-image:hover{
+    transform: scale(0.5);
+}
+.boy-name{
+    text-align: center;
+}
+/*LadySECTION*/
+#boy-name{
+    background:rgb(238, 199, 127);
+}
+#lady-image{
+    border-radius: 50%;
+    width:200px;
+    text-align: center;
+    padding: 10px;
+   
+}
+#lady-image:hover{
+    transform: scale(0.5);
+}
+.girl-name{
+    text-align: center;
+}
+
+
+.footer-1 {
+    background:burlywood;
+    padding: 20px;
+    color: black;
+}
+
+.fotter-text p {
+    text-align: center;
+    color: black;
+    
+}
+h5{
+    color: white;
+    text-align: center;
+}
+.social {
+    text-align: center;
+}
