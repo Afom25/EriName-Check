@@ -38,10 +38,10 @@ function validateData(){
 function finalResult(){
     var result = parseInt(calculateEriName());
     if (gender == 0){
-        alert(   "ሽም ብመንጽር ጠባይ " + "..." + this.guyName[result] + "....  ዘተወደሉ መዓልቲ " +  "......" +   this.week[result])
+        alert(   "ሽም ብመንጽር ጠባይ " + "..." + this.ladyName[result] + "....  ዘተወደሉ መዓልቲ " +  "......" +   this.week[result])
     }
     else{
-        alert( "ሽም ብመንጽር ጠባይ" + "...." + this.ladyName[result] + ",....  ዘተወደሉ መዓልቲ" +  "......" +this.week[result])
+        alert( "ሽም ብመንጽር ጠባይ" + "...." + this.guyName[result] + ",....  ዘተወደሉ መዓልቲ" +  "......" +this.week[result])
     }
 }
 
